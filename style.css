@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Fredoka+One&family=Playfair+Display:ital,wght@1,800&display=swap");
+
+body {
+  background-image: url("/assets/mymelobg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+header {
+    font-family: "Fredoka One", cursive;
+  font-size: 4em;
+  color: #c53061;
+}
+
+img {
+  display: flex;
+  height: 150px;
+  float: left;
+}
+
+kbd {
+  font-family: "Fredoka One", cursive;
+  font-size: 3em;
+  color: #c53061;
+  padding: 0.75em;
+  position: center;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+ flex-direction: row;
+  justify-content: center;
+  max-width: 500px;
+}
+
+button {
+ background: url(assets/flowerbutton.svg);
+  width: 150px;
+  height: 150px;
+  border: none;
+  margin: 5px;
+  transition: transform 0.9s ease-in-out;
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
